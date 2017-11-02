@@ -1,0 +1,174 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+
+    -webkit-tap-highlight-color: transparent;/*清除点击默认的高亮效果*/
+
+    -webkit-box-sizing: border-box;/*以你的border开始计算你的宽度*/
+
+}
+
+body{
+    font-size:0.12rem;
+    font-family: "Microsoft YaHei",sans-serif;/*第二个是手机的一个默认的字体*/
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+input,textarea{
+    border: none;
+    resize: none;
+    outline: none;/*清除选中效果*/
+
+    -webkit-appearance: none;/*清除浏览器默认的样式*/
+}
+
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after{
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+[class^="icon_"]{
+    background: url("../images/sprites.png") no-repeat;
+    background-size: 200px 200px;
+}
+
+
+.top,.content,header,footer,.contents{
+    max-width: 640px;
+    min-width: 300px;
+    width: 100%;
+    margin:0 auto;
+}
+ 
+
+
+
+/* 头部 */
+header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    /* background-color: red; */
+    display: flex;
+    line-height: 40px;
+    z-index: 999;
+
+}
+
+header>div:nth-child(1){
+    flex:1;
+    margin-left: 10px;
+    padding-left: 53px;
+    height: 29px;
+    line-height:29px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 6px;
+    position: relative;
+}
+header>div:nth-child(2){
+    flex:0 0 37px;
+    text-align: center;
+    line-height:40px;
+    
+}
+header>div:nth-child(2) a{
+    color: #fff;
+}
+header .logo{
+    background-image:url(../images/jd_logo.png);
+    width: 18px;
+    height: 12px;
+    position: absolute;
+    top:8px;
+    left: 10px;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+
+}
+header .ss{
+    background-image:url(../images/search.png);
+    width: 13px;
+    height: 13px;
+    top:8px;
+    left: 35px;
+    position: absolute;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+
+}
+.content .swiper-container img{
+    display: block;
+}
+.content .goodlist{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    background:url(../images/col_bg.jpg) no-repeat 0 0;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+
+
+}
+.content .goodlist a{
+    display: block;
+    flex:0 0 20%;
+    text-align: center;
+    margin: 0.2rem 0px;
+}
+.content .goodlist a img{
+   width:0.45rem;
+   height:0.45rem;
+}
+.content .goodlist a p{
+    font-size:0.2rem;
+}
+
+
+
+footer{
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    height:0.55rem;
+    bottom:0px;
+    display: flex;
+    justify-content:space-between;
+    /* display: none; */
+    background-color: #fff;
+    z-index: 2;
+
+}
+footer>div{
+    flex:0 0 20%;
+    background-image: url(../images/n-cart.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 53%;
+    background-size:53%;
+
+}

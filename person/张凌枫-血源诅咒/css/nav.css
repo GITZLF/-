@@ -1,0 +1,152 @@
+#nav{
+	width: 100%;
+	height: 65px;
+	background-color: #1F1F1F;
+}
+
+#nav .nHeart{
+	width: 1000px;
+	height: 65px;
+	margin:0 auto;
+}
+
+#nav .nHeart dl{
+	float: left;
+	height: 65px;
+	/*transition:height 0.4s;*/
+	overflow:hidden;
+	position: relative;
+	z-index:10;
+}
+
+#nav .nHeart dl dt{
+	height: 65px;
+	line-height:65px;
+}
+
+#nav dt a,#nav dd a{
+	color:white;
+	padding:0 20px;
+	display:block;
+	font-size:14px;
+	text-align:center;
+}
+
+#nav dt.bgcolor{
+	background-color: #003791;
+}
+
+#nav dd a{
+	color:#999;
+	background-color: #003791;
+	height:60px;
+	line-height:60px;
+}
+
+/*#nav dd a:hover{
+	color:white;
+}*/
+
+#nav .search{
+	margin-top:17px;
+	position: relative;
+}
+
+#nav .search input{
+	width: 188px;
+	height: 30px;
+	background-color: #303030;
+	border:1px solid #303030;	
+	color:white;
+	padding-left:10px;
+	outline:none;
+	border-radius: 5px;
+}
+
+#nav .search a{
+	position: absolute;
+	top:4px;
+	right:10px;
+	width: 25px;
+	height: 25px;
+	background: url(../img/search.png) no-repeat center center;
+	background-size:100%;
+}
+#gameNav{
+	width: 1160px;
+	height: 69px;
+	background: url(../img/nav-bg.png) no-repeat 0 0;
+	position: fixed;
+	z-index:5;
+	left:50%;
+	bottom:0;
+	margin-left:-580px;
+}
+
+#gameNav a{
+	width: 100%;
+	display:block;
+}
+
+.lock{
+	position: fixed;
+	top:0px;
+	left:50%;
+	margin-left:-580px;
+	animation:down 1s;
+}
+
+@keyframes down{
+	0%{
+		top:-69px;
+		opacity:0;
+	}
+	100%{
+		top:0px;
+		opacity:1;
+	}
+}
+
+#gameNav .gameMiddle{
+	width: 860px;
+	height: 69px;
+	margin:0 auto;
+}
+
+#gameNav .gameMiddle li{
+	width: 170px;
+	height: 69px;
+	text-align:center;
+	line-height:69px;
+	float: left;
+}
+
+#gameNav .gameMiddle li a{
+	font-size:16px;
+	color:#A8A8A8;
+}
+
+#gameNav .gameMiddle li a.colorChange{
+	color:white;
+	-webkit-transition: color 0.6;
+	transition: color 0.6;
+}
+
+#goTop{
+	width: 227px;
+	height: 26px;
+	line-height:26px;
+	background: url(../img/btn-frame.png) no-repeat 0 0;
+	margin:0 auto;
+}
+
+#goTop a{
+	width: 100%;
+	color:white;
+	text-shadow:0px 0px 30px skyblue;
+	font-size:16px;
+	text-align:center;
+	line-height:26px;
+	display:block;
+	cursor:default;
+}

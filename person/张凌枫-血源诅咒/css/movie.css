@@ -1,0 +1,182 @@
+body{
+	background: url(../img/main-bg.jpg) no-repeat 0 0;
+	background-attachment: fixed;
+}
+
+#gameNav{
+	position: absolute;
+	top:160px;
+	z-index:5;
+}
+
+.darkbg{
+	width: 100%;
+	padding:50px 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+#gameTitle{
+	width: 100%;
+	text-align:center;
+	margin:200px 0 50px 0;
+}
+
+#title{
+	width: 324px;
+	height: 70px;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+
+#sort{
+	width: 330px;
+	margin:0 auto;
+}
+
+#sort .sHeart:before{
+	content:"";
+	width: 48px;
+	height: 26px;
+	display:block;
+	float: left;
+	background: url(../img/ssnav-left.png) no-repeat 0 0;
+}
+
+#sort .sHeart{
+	width:345px;
+	height: 26px;
+}
+
+#sort .sHeart span{
+	width: 120px;
+	height: 26px;
+	line-height:26px;
+	text-align:center;
+	color:#ccc;
+	display:inline-block;
+}
+
+#sort .sHeart img{
+	vertical-align: middle;
+}
+
+#sort .sHeart:after{
+	content:"";
+	width: 48px;
+	height: 26px;
+	display:block;
+	float: right;
+	background: url(../img/ssnav-right.png) no-repeat 0 0;
+}
+
+#CGshow{
+	width: 100%;
+	height: 857px;
+	margin-top:50px;
+	padding-top:50px;
+	background: url(../img/movieSbg.png) no-repeat 0 0/100%;
+	display:block;
+}
+
+#CGshow dl dt{
+	width: 467px;
+	margin:0 auto;
+}
+
+#CGshow dl dd{
+	width: 934px;
+	margin:0 auto;
+}
+
+#CGshow dl dt .block,#CGshow dl dd .block{
+	width: 467px;
+	height: 289px;
+	position: relative;
+	overflow:hidden;
+	background: url(../img/trailer-itembg.png) no-repeat 0 0;
+}
+
+
+#CGshow dl dd .block{
+	float: left;
+}
+
+#CGshow dl dt .block img,#CGshow dl dd .block img{
+	position: absolute;
+    top: 30px;
+    left: 36px;
+}
+
+#CGshow .play{
+    width: 403px;
+    height: 231px;
+    position: absolute;
+    top: 26px;
+    left: 31px;
+	background:url(../img/play.png) no-repeat center center;
+	/*z-index:5;*/
+}
+
+#CGshow .play:hover{
+	background-color: rgba(0,0,0,0.2);
+}
+
+.playBlock{
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	display:none;
+}
+
+.playBlock .pbg{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.4;
+}
+
+.playBlock a{
+	position: absolute;
+	top:0;
+	right:0;
+}
+
+.playBlock video{
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin:-304px 0 0 -540px;
+}
+
+.picShow{
+	width: 975px;
+	margin:50px auto 0;
+	display:none;
+}
+
+.picShow img{
+	-webkit-transform:scale(0.9);
+	        transform:scale(0.9);
+	-webkit-transition:-webkit-transform 0.6s;
+	transition:-webkit-transform 0.6s;
+	transition:transform 0.6s;
+	transition:transform 0.6s, -webkit-transform 0.6s;
+	cursor:pointer;
+}
+
+.picShow img:hover{
+	-webkit-transform:scale(1);
+	        transform:scale(1);
+}
+
+.company{
+	width: 439px;
+	height: 13px;
+	margin:100px auto;
+}
+
+#goTop{
+	margin:50px auto;
+}

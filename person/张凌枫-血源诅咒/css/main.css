@@ -1,0 +1,189 @@
+body{
+	background: url(../img/mainbg.jpg) no-repeat center center;
+	background-size:100%;
+	background-attachment:fixed;
+}
+
+#logo{
+	width: 100%;
+	height: 36px;
+	background-color: black;
+}
+
+#logo a{
+	font-size:20px;
+	color:white;
+	margin-right:10px;
+	line-height:36px;
+	font-weight:bold;
+}
+
+#gameName{
+	width: 662px;
+	margin:0 auto;
+	margin-top:240px;
+}
+
+#dark{
+	width: 100%;
+	padding:10px 0;
+	background-color: rgba(0,0,0,0.4);
+	margin-top:20px;
+}
+
+#dark .wHeart{
+	width: 500px;
+	margin:50px auto;
+}
+
+#dark .wHeart p{
+	font-size:16px;
+	color:white;
+	text-indent: 2em;
+	margin:10px 0;
+	line-height:30px;
+	/*text-align:center;*/
+}
+
+#dark h1{
+	font-size:26px;
+	color:#CF0F0F;
+	text-align:center;
+	margin:20px 0;
+}
+
+#video{
+	width: 923px;
+	height: 533px;
+	margin:0 auto;
+	background: url(../img/bofang.png) no-repeat 0 0;
+	position: relative;
+}
+
+#video .imgBlock,#video .vPlay,#video .vHover{
+	width: 833px;
+	height: 464px;
+	position: absolute;
+	top:30px;
+	left:42px;
+	cursor:pointer;
+}
+
+#video .imgBlock{
+	/*background: url(../img/bg.jpg) no-repeat 0 0;*/
+	background: url(../img/bg1.jpg) no-repeat 0 0;
+	background-size: 100%;
+}
+
+#video .vHover{
+	background:rgba(0,0,0,0.2);
+}
+
+#video .vPlay a{
+	width: 74px;
+	height: 74px;
+	background: url(../img/play.png) no-repeat 0 0;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin:-37px 0 0 -37px;
+	border-radius: 37px;
+}
+
+#hiddenVideo{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0;
+	left:0;
+	background-color:rgba(255,255,255,0.1);
+	z-index:10;
+	display:none;
+}
+
+#hiddenVideo video{
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin:-304px 0 0 -540px;
+}
+
+#hiddenVideo a{
+	position: absolute;
+	right: 5px;
+	top:5px;
+}
+
+#picShow{
+	width: 990px;
+	margin:0 auto;
+}
+
+#picShow img{
+	-webkit-transform:scale(0.9);
+	        transform:scale(0.9);
+	-webkit-transition: -webkit-transform 0.6s;
+	transition: -webkit-transform 0.6s;
+	transition: transform 0.6s;
+	transition: transform 0.6s, -webkit-transform 0.6s;
+	cursor:pointer;
+}
+
+/*血缘诅咒按钮*/
+
+#click{
+	width: 348px;
+	height: 88px;
+	border:1px solid #A3ADB5;
+	margin:80px auto 0;
+	-webkit-box-shadow:0px 0px 20px 0px skyblue;
+	        box-shadow:0px 0px 20px 0px skyblue;
+	background:rgba(0,0,0,0.4) url(../img/bg.jpg) no-repeat 0 0/100%;
+	cursor:pointer;
+	margin-bottom:50px;
+}
+
+#click:hover{
+	-webkit-box-shadow:0px 0px 20px 1px skyblue;
+	        box-shadow:0px 0px 20px 1px skyblue;
+}
+
+#click .btn{
+	width: 340px;
+	height: 80px;
+	display:block;
+	border:1px solid #6B6B62;
+	margin:3px 0 0 3px;
+	position: relative;
+	background-color:rgba(0,0,0,0.1);
+}
+
+#click .btn:hover{
+	background-color:rgba(255,255,255,0.1);
+}
+
+#click .btn p{
+	font-size:16px;
+	color:white;
+	line-height:40px;
+	margin-left:10px;
+}
+
+#click .btn span{
+	position: absolute;
+	top:50%;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-top:8px solid transparent;
+	border-right:8px solid transparent;
+	border-bottom:8px solid transparent;
+	border-left:8px solid white;
+	margin-top:-4px;
+}
+
+
+
+
+
+

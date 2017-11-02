@@ -1,0 +1,206 @@
+/*
+* @Author: Administrator
+* @Date:   2017-05-31 17:25:10
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-06-18 17:24:10
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: block;
+	height: 0px;
+	line-height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix{
+	zoom: 1;
+}
+
+body{
+	overflow-x:hidden; 
+}
+
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+
+}
+a:hover{
+	color:#00c1f8;
+
+}
+.w {
+	width: 1240px;
+	margin: 0 auto;
+}
+
+/* 头部导航 */
+.header{
+	width: 100%;
+	height: 40px;
+	background-color:#fafafc;
+}
+.header .hleft{
+	width: 480px;
+	float: left;
+
+}
+.header .hleft ul li{
+	float: left;
+}
+.header .hleft ul li a{
+	font-size: 12px;
+	color:#666666;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 40px;
+}
+.header .hright{
+	width: 300px;
+	float: right;
+
+}
+.header .hright dl dt {
+	float: left;
+	margin-right: 20px;
+	position: relative;
+}
+.header .hright dl dt a{
+	font-size: 12px;
+	color:#666666;
+	height: 40px;
+	line-height: 40px;
+}
+.header .hright dl dd{
+	float: left;
+	margin:0px 20px;
+}
+.header .hright dl dd a{
+	font-size: 12px;
+	color:#666666;
+	height: 40px;
+	line-height: 40px;
+}
+.header .hright dl dt .shoucang{
+	width: 27px;
+	height: 13px;
+	background-color: #ed4462;
+	position: absolute;
+	top: 14px;
+	right: -33px;
+	font-size: 12px;
+	color: #fff;
+	text-align:center;
+	line-height: 13px;
+	border-radius: 2px;
+	cursor: pointer;
+
+}
+.header .hright dl dt span{
+	border: 2px solid #fafafc;
+	border-right: 5px solid #ed4462;
+	position: absolute;
+	top:5px;
+	left:-7px;
+}
+
+/* 底部公共样式 */
+.foot{
+	width: 100%;
+	background-color: #fafafc;
+	height: 430px;
+}
+.footer{
+	height: 130px;
+	overflow: hidden;
+	border-bottom: 1px solid #e5e5e5;
+}
+.footer ul {
+	width: 1260px;
+	padding-top: 50px;
+
+	
+}
+.footer ul li{
+	float: left;
+	width: 208px;
+	height: 45px;
+	border-right: 1px solid #e5e5e5;
+}
+.footer ul li a{
+	display:inline-block;
+	width: 208px;
+	height: 65px;
+	margin-top: -16px;
+	text-align: center;
+
+}
+.footer ul li a span{
+	display: inline-block;
+	width: 208px;
+	color: #666;
+	font-size: 12px;
+}
+.footmid{
+	height: 180px;
+	display: table;
+	clear: both;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.footmid dl{
+	float: left;
+	margin: 35px 90px 0px;
+}
+.footmid dl dt a{
+	color: #000;
+	margin-bottom: 10px;
+}
+.footmid dl dd a{
+	color: #666666;
+	display: inline-block;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+	width: 64px;
+}
+
+.footright {
+	width: 157px;
+	height: 100px;
+	float: right;
+	margin-top: 40px;
+}
+.footright p.one{
+	color: #999999;
+	font-size: 10px;
+}
+.footright p.two{
+	color: #00c3f5;
+	font-size: 22px;
+	margin-top:10px;
+}
+.footright p.san{
+	height: 40px;
+	width: 100%;
+	background-color:#00c3f5;
+	border-radius: 5px;
+	text-align: center;
+	line-height:40px;
+	margin-top: 15px;
+}
+.footright p img{
+	vertical-align: middle;
+
+}
+.footbottom img{
+	margin-top: 20px;
+	margin-left: 40px;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1; user-scalable=no;">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <script src="js/base.js"></script>
+		<style>
+			body{
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+			}
+			.left-container{
+				height: 6.4rem;
+			}
+		
+			.swiper-slide {
+		        height: auto;
+		        -webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		    }
+		</style>
+    </head>
+    <body>
+    	<div class="box">
+    		<div class="top">
+    			<img src="images/jiantou.jpg" alt="">
+    			<div class="seach">
+    				<span>
+    					<img src="images/search.png" alt="">
+    				</span>
+    				蚕丝被
+    			</div>
+    			<b></b>
+    		</div>
+    		<div class="contents">
+    			<div class="left">
+    				<div class="left-container">
+    					<ul class="swiper-wrapper">
+							<li class="con swiper-slide">
+								热门推介
+							</li>
+							<li class="swiper-slide">
+								京东超市
+							</li>
+							<li class="swiper-slide">
+								奢侈品
+							</li>
+							<li class="swiper-slide">
+								全球购
+							</li>
+							<li class="swiper-slide">
+								男装
+							</li>
+							<li class="swiper-slide">
+								女装
+							</li>
+							<li class="swiper-slide">
+								全球购
+							</li>
+							<li class="swiper-slide">
+								男装
+							</li>
+							<li class="swiper-slide">
+								女装
+							</li>
+							<li class="swiper-slide">
+								全球购
+							</li>
+							<li class="swiper-slide">
+								男装
+							</li>
+							<li class="swiper-slide">
+								女装
+							</li>
+							<li class="swiper-slide">
+								全球购
+							</li>
+							<li class="swiper-slide">
+								男装
+							</li>
+							<li class="swiper-slide">
+								女装
+							</li>
+								<li class="swiper-slide">
+								全球购
+							</li>
+							<li class="swiper-slide">
+								男装
+							</li>
+							<li class="swiper-slide">
+								女装
+							</li>
+								<li class="swiper-slide">
+								全球购
+							</li>
+							<li class="swiper-slide">
+								男装
+							</li>
+							<li class="swiper-slide">
+								女装
+							</li>
+								<li class="swiper-slide">
+								全球购
+							</li>
+							<li class="swiper-slide">
+								男装
+							</li>
+							<li class="swiper-slide">
+								女装
+							</li>
+						</ul>			
+    				</div>
+							
+				</div>
+				<div class="right">
+					<div class="right-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div>
+									<img src="images/594cb607Nb8715cc2.jpg" alt="">
+								</div>
+								<div class="zhuanchang">
+									<h6>专场推介</h6>
+									<div class="zlist">
+										<a href="">
+											<img src="images/59505d7cN807a9368.jpg" alt="">
+											<p>女神专享</p>
+										</a>
+										<a href="">
+											<img src="images/59505d7cN807a9368.jpg" alt="">
+											<p>女神专享</p>
+										</a>
+										<a href="">
+											<img src="images/59505d7cN807a9368.jpg" alt="">
+											<p>女神专享</p>
+										</a>
+									</div>
+								</div>
+								<div class="remen">
+									<div>热门分类</div>
+									<div class="rlist">
+										<a href="">
+											<img src="images/59505d7cN807a9368.jpg" alt="">
+											<p>手机</p>
+										</a>
+										<a href="">
+											<img src="images/59505d7cN807a9368.jpg" alt="">
+											<p>笔记本</p>
+										</a>
+										<a href="">
+											<img src="images/59505d7cN807a9368.jpg" alt="">
+											<p>空调</p>
+										</a>
+										<a href="">
+											<img src="images/59505d7cN807a9368.jpg" alt="">
+											<p>手机</p>
+										</a>
+										<a href="">
+											<img src="images/59505d7cN807a9368.jpg" alt="">
+											<p>笔记本</p>
+										</a>
+										<a href="">
+											<img src="images/59505d7cN807a9368.jpg" alt="">
+											<p>空调</p>
+										</a>
+									</div>
+									<div class="ertong">
+										儿童文学
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+    		</div>
+			
+    	</div>
+    	<script src="js/zepto.js"></script>
+    	<script src="js/swiper.min.js"></script>
+    	<script src="js/index.js"></script>
+    	<script>
+    		$(window).resize(function(){
+       			windowHeight();
+    		})
+		    windowHeight();
+		    function windowHeight(){
+		        var hei = $(window).height()-45;
+		        $(".contents .left .left-container").css("height",hei + "px");
+		        $(".contents .right .right-container").css("height",hei + "px");
+			}
+    	</script>
+    </body>
+</html>
